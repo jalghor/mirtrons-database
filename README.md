@@ -1,4 +1,4 @@
-## MiRTronDB  (Mirtrons Database) 
+## MiRBase  (Mirtrons Database) 
 
 ## Description
 The Mirtrons Database Project is a web application designed to facilitate the searching and retrieval of mirtron (micro RNA) information. 
