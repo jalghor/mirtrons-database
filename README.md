@@ -4,6 +4,10 @@
 The Mirtrons Database Project is a web application designed to facilitate the searching and retrieval of mirtron (micro RNA) information. 
 This application allows users to search for organism names and DNA sequences and provides a user-friendly interface for exploring mirtron data.
 
+
+<img src="https://github.com/jalghor/MiRBase/blob/main/images/search_example.png" alt="My Image" width="1000" />
+
+
 ## Features
 - **Search for Organism Names**: Users can search for specific organism names and obtain relevant mirtron data.
 - **Search for DNA Sequences**: Users can perform searches based on the DNA sequences associated with the mirtrons.
