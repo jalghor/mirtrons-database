@@ -1,0 +1,113 @@
+
+/* 
+mrna_search.css
+Author: Jana Alghoraibi
+Year: 2021
+
+This stylesheet is licensed under the MIT License.
+See the LICENSE file for more details.
+
+Description: Stylesheet for the Mirtrons search database. 
+Includes styling for the layout, tables, forms, and other UI components.
+*/
+
+
+/* Base styles for the entire body */
+body {
+    font-family: 'Lucida Grande', Verdana, Arial, sans-serif; 
+    background-color: #f5f7fa; /* Light background color for contrast */
+    color: #333;              /* Dark text color for readability */
+    text-align: center;
+    line-height: 1.6;         /* Improved readability */
+    margin: 0;                /* Remove default margin */
+    padding: 20px;            /* Padding around the body */
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5rem;        /* Larger font size for the header */
+    font-weight: bold;
+    color: #2c3e50;           /* Darker color for the header */
+    margin-bottom: 20px;      /* Space below the header */
+}
+
+/* Form styles */
+form {
+    display: inline-block;     /* Center it as a block element */
+    margin-bottom: 20px;      /* Space below forms */
+}
+
+/* Styles for the form container */
+div {
+    width: 400px;              /* Increased width for better layout */
+    border: 2px solid #27ae60; /* Green border */
+    border-radius: 10px;       /* Rounded corners */
+    padding: 30px;             /* Padding around the content */
+    background-color: white;   /* White background for contrast */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 0 auto;            /* Center the div */
+}
+
+/* Hidden results section that will be displayed later */
+section#results {
+    display: none;
+    margin-top: 20px;        /* Some space above results */
+}
+
+/* Styling for tables */
+table {
+    width: 100%;              /* Full width table */
+    max-width: 1200px;       /* Maximum width for larger screens */
+    border-collapse: collapse; /* Ensure proper border styling */
+    margin: 20px auto;        /* Center the table and space above */
+}
+
+/* Styling for table headers */
+table thead {
+    background-color: #ecf0f1; /* Light grey background for header */
+}
+
+table thead th {
+    font-weight: bold;
+    padding: 10px;            /* Padding within header cells */
+}
+
+/* Styling for table cells */
+table td {
+    border: 1px solid rgb(200, 200, 200); /* Soft border */
+    padding: 8px;            /* Increased padding */
+    word-break: break-word;  /* Handle long words gracefully */
+}
+
+/* Set specific widths for each column */
+table td:nth-child(1) {  /* Organism ID */
+    width: 10%;            /* Reduced width for ID */
+}
+
+table td:nth-child(2) {  /* Organism Name */
+    width: 20%;            /* Reduced width for Name */
+}
+
+table td:nth-child(3) {  /* Mirtron Name */
+    width: 20%;            /* Reduced width for Mirtron Name */
+}
+
+table td:nth-child(4) {  /* Type */
+    width: 10%;            /* Reduced width for Type */
+}
+
+table td:nth-child(5) {  /* Sequence */
+    width: 40%;            /* Increased width for Sequence */
+}
+
+/* Hover effect on table rows */
+table tr:hover {
+    background-color: #f2f2f2; /* Light grey on hover */
+}
+
+/* Style for alert/error messages */
+.alert {
+    color: red;               /* Red text for alerts */
+    font-weight: bold;        /* Bold for emphasis */
+    margin-top: 10px;        /* Space above alert */
+}
