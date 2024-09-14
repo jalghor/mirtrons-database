@@ -10,7 +10,7 @@ This application allows users to search for organism names and DNA sequences and
 - **Autocomplete Suggestions**: The search input provides autocomplete suggestions based on user input.
 - **Responsive Design**: The interface is designed to be responsive and user-friendly across devices.
   
-## Technologies Used
+## Tools Used
 - **Frontend**: HTML, CSS, JavaScript (jQuery, jQuery UI)
 - **Backend**: Python (CGI scripts)
 - **Database**: MySQL
