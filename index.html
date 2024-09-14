@@ -1,0 +1,82 @@
+
+<!-- index.html -->
+<!-- 
+Author: Jana Alghoraibi
+Year: 2021
+
+This document is licensed under the MIT License.
+See the LICENSE file for more details.
+
+Description: Main HTML page for the Mirtrons search application.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Mirtrons</title>
+
+    <link rel="stylesheet" type="text/css" href="css/mrna_search.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+
+    </head>
+
+<body id="main">
+
+  <div>
+        <h1>Mirtrons Search</h1>
+
+	
+    <br><br> Enter Organism Name: 
+    
+    <form name="miRna_search" id="miRna_search" action="">
+
+	  <input name="search_term" id="search_term" type="search" value="" autofocus="autofocus" placeholder="Ex. b. taurus"/>
+
+	  <input name="submit" type="submit" id="submit" value="submit">
+    </form>
+
+    <br><br> OR
+
+    <br><br> Enter DNA Sequence:
+
+    <form name="seq_search" id="seq_search" action="">
+      
+       <input name="search_seq" id="search_seq" type="search" value="" autofocus="autofocus" style="width: 300px"  
+placeholder="Enter sequence "/>
+
+       <input name="submit2" type="submit" id="submit2" value="submit">
+
+
+    </form>
+
+ </div>
+    
+    <section id='results'>
+        <p>
+            <span id='match_count'>0</span> match(es) found.
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <td>Organism ID</td>
+                <td>Organism Name</td>
+                <td>Mirtron Name</td>
+                <td> Mature | Precursor </td>
+                <td>Sequence</td>
+            </tr>
+            </thead>
+
+            <tbody>
+                <!-- this will be filled in by javascript when there are results -->
+            </tbody>
+    </section>
+
+</body>
+
+</html>
+
