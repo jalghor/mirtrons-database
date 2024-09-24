@@ -59,5 +59,5 @@ This application allows users to search for organism names and DNA sequences and
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
-Your Jana Alghoraibi  
+Jana Alghoraibi  
 Year: 2021
